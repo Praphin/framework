@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		71FDCD9027391C5700854683 /* framework.docc in Sources */ = {isa = PBXBuildFile; fileRef = 71FDCD8F27391C5700854683 /* framework.docc */; };
-		71FDCD9627391C5800854683 /* framework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71FDCD8B27391C5700854683 /* framework.framework */; };
+		71FDCD9627391C5800854683 /* upma.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71FDCD8B27391C5700854683 /* upma.framework */; };
 		71FDCD9B27391C5800854683 /* frameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71FDCD9A27391C5800854683 /* frameworkTests.swift */; };
 		71FDCD9C27391C5800854683 /* framework.h in Headers */ = {isa = PBXBuildFile; fileRef = 71FDCD8E27391C5700854683 /* framework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
@@ -24,7 +24,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		71FDCD8B27391C5700854683 /* framework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = framework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		71FDCD8B27391C5700854683 /* upma.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = upma.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71FDCD8E27391C5700854683 /* framework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = framework.h; sourceTree = "<group>"; };
 		71FDCD8F27391C5700854683 /* framework.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = framework.docc; sourceTree = "<group>"; };
 		71FDCD9527391C5800854683 /* frameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = frameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,7 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71FDCD9627391C5800854683 /* framework.framework in Frameworks */,
+				71FDCD9627391C5800854683 /* upma.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,7 +62,7 @@
 		71FDCD8C27391C5700854683 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				71FDCD8B27391C5700854683 /* framework.framework */,
+				71FDCD8B27391C5700854683 /* upma.framework */,
 				71FDCD9527391C5800854683 /* frameworkTests.xctest */,
 			);
 			name = Products;
@@ -114,7 +114,7 @@
 			);
 			name = framework;
 			productName = framework;
-			productReference = 71FDCD8B27391C5700854683 /* framework.framework */;
+			productReference = 71FDCD8B27391C5700854683 /* upma.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		71FDCD9427391C5800854683 /* frameworkTests */ = {
@@ -359,7 +359,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.psp.framework;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = upma;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -387,7 +387,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.psp.framework;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = upma;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
